@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Navigation Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Circular Progress Indicator -->
+    <div id="scroll-progress"></div>
+
+    <!-- Home Section -->
+    <div id="home" class="section">
+        <h1 id="typewriter" style="font-size: 50px;"></h1>
+        <p class="tagline">Explore creativity, innovation, and interactivity on a single platform.</p>
+        <button class="cta-button" style="font-size: 20px;">Learn More</button>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="section">
+        <h2 style="font-size: 50px;">About Us</h2>
+        <p class="description" style="font-size: 30px;">We’re a team of passionate creators, driven by innovation and committed to excellence. Our mission is to design digital experiences that inspire and connect.</p>
+        <div class="cards" style="font-size: 20px;">
+            <div class="card">Our Mission</div>
+            <div class="card">Our Vision</div>
+            <div class="card">Our Team</div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div id="services" class="section">
+        <h2 style="font-size: 50px;">Our Services</h2>
+        <div class="services-grid" style="font-size: 30px;">
+            <div class="service">
+                <h3>⚙️ Development</h3>
+                <p>Custom solutions crafted to perfection, tailored to your needs.</p>
+            </div>
+            <div class="service">
+                <h3>🎨 Design</h3>
+                <p>Beautiful interfaces and intuitive user experiences for every project.</p>
+            </div>
+            <div class="service">
+                <h3>📊 Analytics</h3>
+                <p>Data-driven insights to guide your strategy and ensure success.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="section">
+        <h2 style="font-size: 50px;">Contact Us</h2>
+        <p class="description" style="font-size: 30px;">We’d love to hear from you! Drop us a message below or reach out on social media.</p>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" style="font-size: 30px;" required>
+            <input type="email" placeholder="Your Email" style="font-size: 30px;" required>
+            <textarea placeholder="Your Message" style="font-size: 30px;"></textarea>
+            <button type="submit" style="font-size: 20px;">Send</button>
+        </form>
+    </div>
+</body>
+</html>
