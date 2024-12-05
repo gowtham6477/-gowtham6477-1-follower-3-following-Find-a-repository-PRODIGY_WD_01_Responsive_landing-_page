@@ -1,1 +1,1 @@
-PRODIGY_WD_01_Responsive_landing-_page
+PRODIGY_WD_01_Responsive_landing_page
