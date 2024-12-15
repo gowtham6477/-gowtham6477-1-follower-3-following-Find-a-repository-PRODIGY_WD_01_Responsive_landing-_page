@@ -1,3 +1,26 @@
+// Select DOM Elements
+// Select DOM Elements
+const menuToggle = document.getElementById("menu-toggle");
+const sidebar = document.getElementById("sidebar");
+const sidebarLinks = document.querySelectorAll(".sidebar-link");
+
+// Open Sidebar
+menuToggle.addEventListener("click", (event) => {
+    sidebar.classList.add("open");
+    event.stopPropagation(); // Prevent closing on menu click
+});
+// Close Sidebar when clicking outside
+document.addEventListener("click", () => {
+    sidebar.classList.remove("open");
+});
+
+// Close Sidebar when clicking a link
+sidebarLinks.forEach(link => {
+    link.addEventListener("click", () => {
+        sidebar.classList.remove("open");
+    });
+});
+
 // Scroll Progress Bar
 const scrollProgress = document.getElementById("scroll-progress");
 window.addEventListener("scroll", () => {
