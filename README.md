@@ -1,4 +1,4 @@
-# PRODIGY_WD_01_Responsive_landing_page
+#Responsive_landing_page
 ![Preview](landing-page.png)
 
 ### 🔗 **Live preview** of the project is [here](https://gowtham6477.github.io/PRODIGY_WD_01_Responsive_landing_page/).
